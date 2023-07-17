@@ -1,14 +1,10 @@
-# Portfolio Project README
+# Perosnal portfolio website [ ReactJS and Tailwind css]
 
 This README file provides an overview of my portfolio project built with ReactJS and Tailwind CSS. It includes information about the project, installation instructions, and details about the libraries used.
 
-## Table of Contents
+## Online Link
 
-- [Project Overview](#project-overview)
-- [Installation](#installation)
-- [Libraries Used](#libraries-used)
-- [Contributing](#contributing)
-- [License](#license)
+An online version of the portfolio project is available at https://rimshadev-portfolio.vercel.app/. You can visit this link to see the project in action and explore its features.
 
 ## Project Overview
 
