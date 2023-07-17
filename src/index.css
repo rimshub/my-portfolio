@@ -1,13 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  position: relative;
 }
+
+a {
+  position: relative;
+  cursor: pointer;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+@keyframes moveFromUpToDown {
+  from {
+    top: -100px;
+  }
+
+  to {
+    top: 12px
+  }
+}
+
+.carousel__inner-slide {
+  margin-right: 20px;
+}
+
+.slick-slide div {
+  margin: 0 10px 0px 5px;
+  box-sizing: border-box;
+
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(32,108,164) !important;
+  border-radius: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* background of scroller */
+::-webkit-scrollbar-track {
+  background: #20262E;
+  /* background: #206ca4; */
+}
+
+/* Scrollar bar color */
+::-webkit-scrollbar-thumb {
+  background: #ec6e59;
+  border-radius: 10px;
+}
+
+body {
+  max-width: 1920px;
+  margin: auto;
+}
+
+html {
+  background-color: #20262E;
+}
+
+.experience {
+  scroll-padding-top: -100px;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html [id],
+body [id] {
+  scroll-margin: 50px !important;
+}
+
+ /* value: "#FFDE59",
+ value: "#2596be",
+ value: "#206ca4", */
