@@ -34,7 +34,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="flex mt-[-2px] justify-between py-[2rem] pl-[4rem] pr-[3.5rem] sm:px-[1.5rem] items-center relative">
+            <div className="flex mt-[-2px] justify-between py-[2rem] pl-[3.5rem] pr-[3.5rem] sm:px-[1.5rem] items-center relative">
                 {colorTheme === 'dark' ? (
                     <TbWorldCode alt="logo" className="h-[2vw] min-h-[35px] w-[7.8125vw] min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
                 ) : (

@@ -22,8 +22,9 @@ function Contact() {
   return (
     <div id='contact' className='p-[2rem] flex-col sm:px-[1.25rem] mt-10 ml-10 mr-10 flex tm:py-0 sm:py-0 sm:mt-14 tm:flex-col gap-[80px] sm:gap-[20px] tm:gap-[20px] sm:flex-col'>
       <div className='flex w-[36rem] tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
-        <h1 className='tracking-wider font-[600] text-[1.4rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem] sm:w-[100%]'>
-          <span className='text-[#ec6e59]'>Any Query?</span> Contact Me</h1>
+        <h1 className='tracking-wider font-[600] text-center text-[1.4rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem] sm:w-[100%]'>
+          Contact Me
+        </h1>
       </div>
       <div className='flex justify-center'>
 
