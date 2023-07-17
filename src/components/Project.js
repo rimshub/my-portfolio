@@ -7,7 +7,7 @@ function Projects({image, name, live, source, desc}) {
         <div className='w-full sm:w-1/2'>
             <div className='flex flex-col gap-2'>
                 <h1 className='text-xl font-bold text-[#ec6e59]'>{name}</h1>
-                <p className='sm:text-justify font-light text-lg leading-loose sm:text-base'>{desc}</p>
+                <p className='sm:text-justify font-light  leading-loose text-sm sm:text-base'>{desc}</p>
                 <div className='flex gap-5 mt-7'>
                     <a href={live} target='_blank' rel='noreferrer' className='flex items-center bg-[#ec6e59] text-white px-4 py-2 rounded-md text-sm'>
                         Demo
