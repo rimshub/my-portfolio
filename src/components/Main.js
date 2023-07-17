@@ -1,7 +1,8 @@
 import React from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import myImage from './../assets/main_image.png';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import Typewriter from './Typewriter';
 
 function Main() {
     
@@ -18,23 +19,8 @@ function Main() {
                             <span className="relative text-[#fffffff0] dark:text-[#20262E]">Rimsha</span>
                         </span>
                     </blockquote>
-                    <div className="mt-4">
-                        <Typed
-                            className="font-[500] dark:font-[400] text-black dark:text-[#ec6e59;] text-[1.5rem] mb-2 sm:text-[2rem]"
-                            strings={[
-                                'Full Stack Developer',
-                                'Mobile App Developer',
-                                'ReactJS',
-                                'MongoDB',
-                                'NodeJS',
-                                'ExpressJS',
-                                'NextJS',
-                                'Figma',
-                            ]}
-                            typeSpeed={100}
-                            backSpeed={80}
-                            loop
-                        />
+                    <div className="h-10 mt-4">
+                        <Typewriter />
                     </div>
                     <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
                         I'm a skilled MERN stack and Flutter developer. I'm a graduate of computer science from SEECS,
