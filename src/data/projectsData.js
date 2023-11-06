@@ -18,7 +18,7 @@ const ProjectsData = [
     img: Vanlife,
     name: "Project Van Life",
     stack: ["< RESTful API />", "< Bootstrap v5 />", "< React.js />"],
-    live: "https://project-van-life.vercel.app/vans",
+    live: "https://project-van-life.vercel.app/",
     source: "https://github.com/rimshub/project-van-life",
     description:
       "SPA (Single Page Application) to rent a van for a road trip with 10+ routes. I have built it with ReactJS, React Router 6, miragejs and CSS for styling. It has a responsive design and navigation.",
