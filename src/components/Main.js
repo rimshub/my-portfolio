@@ -23,11 +23,9 @@ function Main() {
                         <Typewriter />
                     </div>
                     <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-                        I'm a skilled MERN stack and Flutter developer. I'm a graduate of computer science from SEECS,
-                        NUST. I have worked on diverse projects, individually as well as in collaboration with teams. I
-                        have built end-to-end web and mobile apps. My skills include but are not limited to Figma, Sass,
-                        Bootstrap, Tailwind, JavaScript, ReactJS, Flutter, Dart, Express/NodeJS, Git, MongoDB, MySQL,
-                        and AWS.
+                    I am passionate about building websites and web applications. With a degree in Computer Science from SEECS, NUST, I have honed my technical skills through diverse projects, both individually and in teams. 
+
+                    I have built end-to-end web and mobile applications using technologies such as Figma, Webflow, JavaScript, ReactJS, Next.js, Sass, Bootstrap, Tailwind CSS, Flutter, Dart, NodeJS, Git, MongoDB, and MySQL.
                     </p>
                     
                 </div>
