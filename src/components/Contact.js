@@ -22,11 +22,11 @@ function Contact() {
 
   return (
     <div id='contact' className='flex-col sm:px-[1.25rem] mt-10 flex tm:py-0 sm:py-0 sm:mt-14 tm:flex-col gap-[80px] sm:gap-[20px] tm:gap-[20px] sm:flex-col'>
-      <div className='flex flex-col w-[36rem] tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
-        <h1 className='tracking-wider font-[600] text-center text-[1.4rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem] sm:w-[100%]'>
+      <div className='flex flex-col pl-[5rem] w-[36rem] tm:pt-4 lg:pt-4 sm:pt-0 tm:w-full sm:w-full tm:mb-[20px] sm:mb-[20px]'>
+        <h1 className='tracking-wider font-[600] text-[1.4rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem] sm:w-[100%]'>
           Contact Me
         </h1>
-        <p className='text-center cursor-pointer'>Shoot a message here or You can contact me at<GmailCopy/></p>
+        <p className=' cursor-pointer'>Shoot a message here or You can contact me at<GmailCopy/></p>
       </div>
       <div className='flex justify-center'>
 
