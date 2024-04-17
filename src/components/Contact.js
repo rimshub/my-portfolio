@@ -26,7 +26,7 @@ function Contact() {
         <h1 className='tracking-wider font-[600] text-[1.4rem] lg:text-[2rem] md:text-[2rem] tm:text-[2.5rem] sm:text-[1rem] sm:w-[100%]'>
           Contact Me
         </h1>
-        <p className=' cursor-pointer'>Shoot a message here or You can contact me at<GmailCopy/></p>
+        <p className=' cursor-pointer'>You can contact me at<GmailCopy/></p>
       </div>
       <div className='flex justify-center'>
 
